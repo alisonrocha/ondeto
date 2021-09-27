@@ -36,8 +36,10 @@ const DOM = {
 
         const number = parseInt(separatorTime[1].split('', 2).join(''))
 
+        console.log(number)
+
         const text =
-          number < 12 ? 'bom dia' : number > 18 ? 'boa noite' : 'boa tarde'
+          number < 12 ? 'bom dia' : number >= 18 ? 'boa noite' : 'boa tarde'
 
         DOM.containerTime.insertAdjacentHTML(
           'afterbegin',
