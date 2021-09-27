@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="ondeto" title="ondeto" src=".github/logo" width="220px" />
+  <img alt="ondeto" title="ondeto" src=".github/logo.png" width="220px" />
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/img-ondeto" width="100%">
+  <img alt="dev.finances" src=".github/img-ondeto.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
