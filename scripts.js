@@ -48,7 +48,7 @@ const DOM = {
 
   innerLocalization() {
     let key = '342bdff55c7b1778c91db25027551291'
-    let url = 'http://api.ipapi.com/' + DOM.ip_address + '?access_key=' + key
+    let url = 'https://api.ipapi.com/' + DOM.ip_address + '?access_key=' + key
 
     fetch(url)
       .then(response => response.json())
@@ -73,7 +73,7 @@ const DOM = {
     let ip_address = localStorage.getItem('ip')
     let key = '64740f8d10944339a2c164919212509'
     let url =
-      'http://api.worldweatheronline.com/premium/v1/weather.ashx?key=' +
+      'https://api.worldweatheronline.com/premium/v1/weather.ashx?key=' +
       key +
       '&q=' +
       ip_address +
