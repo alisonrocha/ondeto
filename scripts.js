@@ -48,7 +48,7 @@ const DOM = {
 
   innerLocalization() {
     let key = '342bdff55c7b1778c91db25027551291'
-    let url = 'https://api.ipapi.com/' + DOM.ip_address + '?access_key=' + key
+    let url = 'http://api.ipapi.com/' + DOM.ip_address + '?access_key=' + key
 
     fetch(url)
       .then(response => response.json())
